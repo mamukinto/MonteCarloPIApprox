@@ -21,8 +21,8 @@ import java.util.TimerTask;
 
 public class Main extends Application {
 
-    private static double WIDTH = 800;
-    private static double HEIGHT = 800;
+    private static final double WIDTH = 800;
+    private static final double HEIGHT = 800;
     private static final double CELL_SIZE = 5;
     private static final double RADIUS = 700;
     private static final double SQUARE_SIDE = RADIUS;
@@ -52,10 +52,10 @@ public class Main extends Application {
     private static final GraphicsContext g = canvas.getGraphicsContext2D();
 
 
-    private static Label dotsInSquareLabel = Style.styledLabel("Dots in square: " + dotsInSquare);
-    private static Label dotsInCircleLabel = Style.styledLabel("Dots in circle: " + dotsInCircle);
-    private static Label approximation = Style.styledLabel("Approximation of PI: " + approxPI);
-    private static Label realPI = Style.styledLabel("Real PI: " + Math.PI);
+    private static final Label dotsInSquareLabel = Style.styledLabel("Dots in square: " + dotsInSquare);
+    private static final Label dotsInCircleLabel = Style.styledLabel("Dots in circle: " + dotsInCircle);
+    private static final Label approximation = Style.styledLabel("Approximation of PI: " + approxPI);
+    private static final Label realPI = Style.styledLabel("Real PI: " + Math.PI);
 
 
     @Override
