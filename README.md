@@ -2,4 +2,4 @@
 
 JavaFX application visualizing approximation of PI with circle and square :)
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Preview](https://media.giphy.com/media/vSlVHewVr9rD10aTPl/giphy.gif)
